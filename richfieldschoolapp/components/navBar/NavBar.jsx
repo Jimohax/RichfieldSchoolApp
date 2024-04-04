@@ -81,8 +81,8 @@ const NavBar = () => {
 						</li>
 					</ul>
 				</div>
-				<div class="navbar-end">
-					<a class="btn">Button</a>
+				<div class="navbar-end ">
+					<a class="btn bg-[#F8BC36] text-black">Join Us</a>
 				</div>
 			</div>
 		</>
