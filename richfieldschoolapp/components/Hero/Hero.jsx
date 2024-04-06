@@ -11,9 +11,9 @@ import event4 from "../../public/img/event4.jpg";
 const Hero = () => {
 	return (
 		<>
-			<div className="bg-blue-900 h-[30rem] w-full flex align-center justify-around relative ">
+			<div className="bg-blue-900  w-full flex align-center  min-h-[30rem] justify-around relative  flex-col md:flex-row">
 				<div>
-					<div className=" p-3 m-3 relative left-20 flex flex-col">
+					<div className=" p-3 m-3 relative md:left-20 flex flex-col">
 						<span>For a better </span> <br />
 						<span className="font-bold text-7xl ">
 							High Quality <br />
@@ -41,7 +41,7 @@ const Hero = () => {
 				</div>
 			</div>
 			<div className="carousel w-full">
-				<div id="slide1" className="carousel-item relative ">
+				<div id="slide1" className="carousel-item relative  ">
 					<Image
 						src={event1}
 						width={400}
