@@ -13,14 +13,14 @@ const Hero = () => {
 		<>
 			<div className="bg-blue-900  w-full flex align-center  min-h-[30rem] justify-around relative  flex-col md:flex-row">
 				<div>
-					<div className=" p-3 m-3 relative md:left-20 flex flex-col">
-						<span>For a better </span> <br />
-						<span className="font-bold text-7xl ">
+					<div className=" p-3 m-3 relative md:left-20 flex flex-col ">
+						<span className="text-white">For a better </span> <br />
+						<span className="font-bold text-7xl text-white">
 							High Quality <br />
 							<span>Education</span>
-						</span>{" "}
+						</span>
 						<br />
-						<span>Find the right school for your ward</span>
+						<span className="text-white">Find the right school for your ward</span>
 					</div>
 					<div className="relative left-20 ml-6 flex gap-4">
 						<button className="bg-[#F8BC36] text-blue-900 p-2 rounded">
