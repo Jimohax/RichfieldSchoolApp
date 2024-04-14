@@ -9,11 +9,13 @@ import Facilities from "@/components/Facilities/Facilities";
 import Downloads from "@/components/Downloads/Downloads";
 import LatestNews from "@/components/LatestNews/LatestNews";
 import Blog from "@/components/Blog/Blog";
+import Hero2 from "@/components/Hero2/Hero2";
 
 export default function Home() {
 	return (
 		<>
 			<NavBar/>
+			<Hero2/>
 			<Hero/>
 			<Categories/>
 			<Latest/>
