@@ -6,7 +6,7 @@ import Head from '../../public/img/Head.jpg'
 const HeadOfSchool = () => {
 	return (
 		<>
-			<div className="hero min-h-[12rem] bg-gray-200">
+			<div className="hero min-h-[12rem] bg-gray-200 m-8 p-4">
 				<div className="hero-content flex-col lg:flex-row">					
                     <Image
 						src={Head}

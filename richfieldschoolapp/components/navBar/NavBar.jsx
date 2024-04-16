@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const NavBar = () => {
@@ -5,7 +6,7 @@ const NavBar = () => {
 		<>
 			<div className="text-red-600 text-center font-bold  ">Admission is still on</div>
 			<div className="navbar bg-blue-900">
-				<div className="navbar-start">
+				<div className="navbar-start mx-[5rem] text-white">
 					<div className="dropdown">
 						<div
 							tabindex="0"
@@ -18,7 +19,7 @@ const NavBar = () => {
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
-							>
+							>w
 								<path
 									strokeLinecap="round"
 									strokeLinejoin="round"
@@ -54,8 +55,8 @@ const NavBar = () => {
 							</li>
 						</ul>
 					</div>
-					<a className="btn btn-ghost text-xl">Richfield</a>
-					
+					<a className="btn btn-ghost text-xl">RICHFIELD</a>
+					<Image src="/img/richfield_logo.png" height={100} width={100} alt="logo"/>
 				</div>
 				<div className="navbar-center hidden lg:flex">
 					<ul className="menu menu-horizontal px-1">
@@ -66,7 +67,7 @@ const NavBar = () => {
 						<li>
 							<details>
 								<summary>School</summary>
-								<ul className="p-2">
+								<ul className="p-2 z-10">
 									<li>
 										<a>Pre-school</a>
 									</li>
@@ -84,7 +85,7 @@ const NavBar = () => {
 						</li>
 					</ul>
 				</div>
-				<div className="navbar-end ">
+				<div className="navbar-end mx-[4rem]">
 					<a className="btn bg-[#f7de3e] text-black">Join Us</a>
 				</div>
 			</div>
