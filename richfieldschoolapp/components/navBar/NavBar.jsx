@@ -1,11 +1,12 @@
 import Image from "next/image";
+
 import React from "react";
 
 const NavBar = () => {
 	return (
 		<>
 			<div className="text-red-600 text-center font-bold  ">Admission is still on</div>
-			<div className="navbar bg-blue-900">
+			<div className="navbar bg-blue-950">
 				<div className="navbar-start mx-[5rem] text-white">
 					<div className="dropdown">
 						<div
@@ -55,7 +56,7 @@ const NavBar = () => {
 							</li>
 						</ul>
 					</div>
-					<a className="btn btn-ghost text-xl">RICHFIELD</a>
+					<a href="/" className="btn btn-ghost text-xl">RICHFIELD</a>
 					<Image src="/img/richfield_logo.png" height={100} width={100} alt="logo"/>
 				</div>
 				<div className="navbar-center hidden lg:flex">
@@ -69,6 +70,7 @@ const NavBar = () => {
 								<summary>School</summary>
 								<ul className="p-2 z-10">
 									<li>
+									
 										<a>Pre-school</a>
 									</li>
 									<li>

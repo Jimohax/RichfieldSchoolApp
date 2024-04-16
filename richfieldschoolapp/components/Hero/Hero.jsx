@@ -11,7 +11,7 @@ import event4 from "../../public/img/event4.jpg";
 const Hero = () => {
 	return (
 		<>
-			<div className="bg-blue-900  w-full flex align-center  min-h-[30rem] justify-around relative  flex-col md:flex-row">
+			<div className="bg-blue-950  w-full flex align-center  min-h-[30rem] justify-around relative  flex-col md:flex-row">
 				<div>
 					<div className=" p-3 m-3 relative md:left-20 flex flex-col ">
 						<span className="text-white">For a better </span> <br />
