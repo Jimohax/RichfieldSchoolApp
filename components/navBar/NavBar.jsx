@@ -6,8 +6,8 @@ const NavBar = () => {
 	return (
 		<>
 			<div className="text-red-600 text-center font-bold  ">Admission is still on</div>
-			<div className="navbar bg-blue-950">
-				<div className="navbar-start mx-[5rem] text-white">
+			<div className="navbar bg-blue-950 px-[6rem]">
+				<div className="navbar-start mid:mx-[5rem] text-white">
 					<div className="dropdown">
 						<div
 							tabindex="0"
@@ -56,7 +56,7 @@ const NavBar = () => {
 							</li>
 						</ul>
 					</div>
-					<a href="/" className="btn btn-ghost text-xl">RICHFIELD</a>
+					<a href="/" className="btn btn-ghost md:text-xl">RICHFIELD</a>
 					<Image src="/img/richfield_logo.png" height={100} width={100} alt="logo"/>
 				</div>
 				<div className="navbar-center hidden lg:flex">
@@ -87,7 +87,7 @@ const NavBar = () => {
 						</li>
 					</ul>
 				</div>
-				<div className="navbar-end mx-[4rem]">
+				<div className="navbar-end ">
 					<a className="btn bg-[#f7de3e] text-black">Join Us</a>
 				</div>
 			</div>

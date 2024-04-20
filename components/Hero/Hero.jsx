@@ -11,34 +11,31 @@ import event4 from "../../public/img/event4.jpg";
 const Hero = () => {
 	return (
 		<>
-			<div className="bg-blue-950  w-full flex align-center  min-h-[30rem] justify-around relative  flex-col md:flex-row">
+			<div className="bg-blue-950  w-full flex align-center  min-h-[20rem] justify-around relative  flex-col md:flex-row">
 				<div>
-					<div className=" p-3 m-3 relative md:left-20 flex flex-col ">
-						<span className="text-white">For a better </span> <br />
-						<span className="font-bold text-7xl text-white">
-							High Quality <br />
-							<span>Education</span>
-						</span>
+					<div className=" p-3 m-3 relative  flex flex-col text-center">
+						<span className="text-white ">Give your child </span> <br />
+						<div className="flex md:flex-row flex-col">
+
+							<span className="font-bold md:text-7xl text-5xl  text-white ">
+								Quality 
+								
+							</span><br />
+							<span className="bg-yellow-300 text-blue-950 font-bold md:text-7xl text-5xl">Education</span>
+						</div>
 						<br />
-						<span className="text-white">Find the right school for your ward</span>
+						<span className="text-white">This is the right school for your ward</span>
 					</div>
-					<div className="relative left-20 ml-6 flex gap-4">
-						<button className="bg-[#F8BC36] text-blue-900 p-2 rounded">
-							Learn More
+					<div className="relative  md:ml-6 flex gap-4 justify-center mb-7">
+						<button className="bg-[rgb(248,188,54)] text-blue-900 p-2 rounded font-bold">
+							Enrol Now
 						</button>
-						<button className="p-2 border-[#F8BC36] border-2 px-4 rounded">
-							Join Us
+						<button className="p-2 border-[#F8BC36] border-2 px-4 rounded text-white">
+							Chat Us
 						</button>
 					</div>
 				</div>
-				<div className="">
-					<Image
-						src={student}
-						width={700}
-						height={500}
-						alt="Picture of a girl-student "
-					/>
-				</div>
+				
 			</div>
 			<div className="carousel w-full">
 				<div id="slide1" className="carousel-item relative  ">

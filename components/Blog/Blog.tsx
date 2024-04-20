@@ -11,7 +11,7 @@ const Blog = () => {
 					Welcome to <span className="text-red-600 ">Richfield College</span> on your first day
 				</span>
                 <hr className="font-bold bg-slate-600" />
-				<div className="flex gap-2">
+				<div className="flex gap-2 flex-col md:flex-row">
 					<Image src={collegeGirl} height={200} width={200} alt="" />
 					<div>
 						<span>
