@@ -5,7 +5,7 @@ import { url } from 'inspector'
 const Downloads = () => {
   return (
     <>
-        <div className=' bg-red-500  w-full min-h-[30rem]  '>
+        <div className='  w-full min-h-[30rem]  '>
 
             <div className=' bg-blue-300  w-full min-h-[25rem] flex'
     >

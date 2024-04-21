@@ -10,6 +10,7 @@ import Downloads from "@/components/Downloads/Downloads";
 import LatestNews from "@/components/LatestNews/LatestNews";
 import Blog from "@/components/Blog/Blog";
 import Hero2 from "@/components/Hero2/Hero2";
+import Subscribe from "@/components/Subscribe/Subscribe";
 
 export default function Home() {
 	return (
@@ -18,8 +19,8 @@ export default function Home() {
 			<Hero2/>
 			<Hero/>
 			<Categories/>
-			<Latest/>
 			<HeadOfSchool/>
+			<Latest/>
 			<Facilities/>
 			<Downloads/>
 			<div className="flex">
@@ -30,7 +31,7 @@ export default function Home() {
 
 
 
-
+			<Subscribe/>
 			<Footer/>
 
 		</>

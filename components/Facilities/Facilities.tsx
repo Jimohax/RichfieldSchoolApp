@@ -7,8 +7,8 @@ import Facility3 from '../../public/img/facility3.png'
 const Facilities = () => {
   return (
     <>
-      <div className='bg-white min-h-[20rem] w-full flex flex-col p-3'>
-        <span className='text-center '>Our Facilities</span>
+      <div className='bg-white min-h-[20rem] w-full flex flex-col p-3 text-blue-950 font-bold'>
+        <span className='text-center text-2xl my-3'>Our Facilities</span>
         <div className='flex flex-col lg:flex-row gap-[2rem] mb-[2rem]'>
           <div className='m-auto'>
               <Image

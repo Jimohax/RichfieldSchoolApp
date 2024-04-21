@@ -9,7 +9,7 @@ const Categories = () => {
     <>
     <div>
         {/* categories */}
-        <div className='bg-blue-400 h- text-blue-950 p-8 text-center m-3'>Categories</div> 
+        <div className='bg-blue-950 h- text-white p-8 text-center m-3'>Categories</div> 
         <div className='flex flex-col gap-9 md:flex-row'>
             
             {/* Card 1 */}
