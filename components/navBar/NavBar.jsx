@@ -6,12 +6,12 @@ const NavBar = () => {
 	return (
 		<>
 			<div className="text-red-600 text-center font-bold  ">Admission is still on</div>
-			<div className="navbar bg-blue-950 px-[6rem]">
+			<div className="navbar bg-blue-950 md:px-[6rem]">
 				<div className="navbar-start mid:mx-[5rem] text-white">
 					<div className="dropdown">
 						<div
 							tabindex="0"
-							role="button"
+							role="button"		
 							className="btn btn-ghost lg:hidden"
 						>
 							<svg

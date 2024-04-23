@@ -27,12 +27,10 @@ const Hero = () => {
 						<span className="text-white">This is the right school for your ward</span>
 					</div>
 					<div className="relative  md:ml-6 flex gap-4 justify-center mb-7">
-						<button className="bg-[rgb(248,188,54)] text-blue-900 p-2 rounded font-bold">
+						<button className="bg-[rgb(248,188,54)] text-blue-900 py-4 hover:bg-white px-10  rounded-full font-bold">
 							Enrol Now
 						</button>
-						<button className="p-2 border-[#F8BC36] border-2 px-4 rounded text-white">
-							Chat Us
-						</button>
+
 					</div>
 				</div>
 				
