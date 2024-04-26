@@ -15,10 +15,10 @@ const Admission = () => {
 					/>
 				</div>
 				<div className="bg-white  flex-1 w-[8rem]  flex   items-center text-gray-800 ">
-					<div className="font-bold text-gray-800 text-[2rem] absolute">
+					<div className="font-bold text-gray-800 text-[2rem] absolute top-0 ">
 						SIGN UP
 					</div>
-					di
+					
 					<form
 						action=""
 						method="post"
