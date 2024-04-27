@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Admission = () => {
@@ -42,6 +43,11 @@ const Admission = () => {
 						/>
             <button className="bg-blue-950 h-[2.5rem] rounded-full mt-5 text-white w-[20rem]">REGISTER</button>
 					</form>
+					<div className="text-xl text-gray-600 "> Go back
+						<Link href={'/'}>
+						<span className="text-blue-950 ml-3">HOME</span>
+						</Link>
+					</div>
 				</div>
 			</div>
 		</>

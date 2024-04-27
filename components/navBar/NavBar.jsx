@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import React from "react";
 
@@ -56,14 +57,20 @@ const NavBar = () => {
 							</li>
 						</ul>
 					</div>
-					<a href="/" className="btn btn-ghost md:text-xl">RICHFIELD</a>
+					<Link href="/">
+					
+					
+					<div  className="btn btn-ghost md:text-xl">RICHFIELD</div>
+					</Link>
 					<Image src="/img/richfield_logo.png" height={100} width={100} alt="logo"/>
 				</div>
 				<div className="navbar-center hidden lg:flex">
 					<ul className="menu menu-horizontal px-1">
 						<li>
+							<Link href="/about">
 							
-							<a href="/about">About</a>
+							<div >About</div>
+							</Link>
 						</li>
 						<li>
 							<details>
@@ -88,7 +95,9 @@ const NavBar = () => {
 					</ul>
 				</div>
 				<div className="navbar-end ">
-					<a href="/admission" className="btn bg-[#f7de3e] text-black">Join Us</a>
+					<Link href={'/admission'}>
+					 <div  className="btn bg-[#f7de3e] text-black">Join Us</div>
+					</Link>
 				</div>
 			</div>
 
