@@ -14,8 +14,8 @@ const Admission = () => {
 						src={"/img/signup-image.jpeg"}
 					/>
 				</div>
-				<div className="bg-white  flex-1 w-[8rem]  flex   items-center text-gray-800 ">
-					<div className="font-bold text-gray-800 text-[2rem] absolute top-0 ">
+				<div className="bg-white  flex-1 w-[8rem]  flex flex-col relative items-center text-gray-800 ">
+					<div className="font-bold text-blue-950 text-[2rem]  relative top-10">
 						SIGN UP
 					</div>
 					
