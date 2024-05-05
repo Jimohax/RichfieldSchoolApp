@@ -11,14 +11,34 @@ import LatestNews from "@/components/LatestNews/LatestNews";
 import Blog from "@/components/Blog/Blog";
 import Hero2 from "@/components/Hero2/Hero2";
 import Subscribe from "@/components/Subscribe/Subscribe";
+import ImageSlider from "@/components/ImageSlider/ImageSlider";
+
+import play from '../public/img/landingImage/playground.jpg'
+import basketball from "../public/img/landingImage/basketball.jpg"
+import hall from "../public/img/landingImage/Hall.jpg"
+import lab from "../public/img/landingImage/lab.jpg"
+import post2 from "../public/img/landingImage/post2.png"
 
 export default function Home() {
+
+		let slides = [
+			play,
+			basketball,
+			hall,
+			lab,
+			post2,
+		];
+		
+
 	return (
 		<>
 			<NavBar/>
 			<Hero2/>
 			<Hero/>
 			<Categories/>
+			<div className="">
+				<ImageSlider slides={slides}/>
+			</div>
 			<HeadOfSchool/>
 			<Latest/>
 			<Facilities/>
