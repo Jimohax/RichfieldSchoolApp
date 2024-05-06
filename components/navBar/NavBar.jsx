@@ -11,7 +11,7 @@ const NavBar = () => {
 				<div className="navbar-start mid:mx-[5rem] text-white">
 					<div className="dropdown">
 						<div
-							tabindex="0"
+							tabIndex="0"
 							role="button"		
 							className="btn btn-ghost lg:hidden"
 						>
@@ -32,7 +32,7 @@ const NavBar = () => {
 						</div>
 						{/* Menu */}
 						<ul
-							tabindex="0"
+							tabIndex="0"
 							className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
 						>
 							<li>

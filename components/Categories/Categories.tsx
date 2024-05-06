@@ -1,5 +1,5 @@
 import React from 'react'
-import PreSchool  from '../../public/img/preSchool.jpg'
+import PreSchool  from '../../public/img/landingImage/cretche.jpg'
 import Elementary  from '../../public/img/elementary.jpg'
 import College  from '../../public/img/college.jpg'
 import Image from 'next/image'
@@ -13,40 +13,43 @@ const Categories = () => {
         <div className='flex flex-col gap-9 md:flex-row'>
             
             {/* Card 1 */}
-            <div className='bg-[#F8BC36] min-h-[13rem]  w-[25rem] p-3 relative rounded-md shadow-xl m-auto text-center'>
-                <span className='text-black text-[2rem] font-bold '>Pre-School</span>
+            <div className=' min-h-[13rem]   p-3 relative rounded-md shadow-xl m-auto text-center'>
                 <Image
+                className='rounded-xl'
                 height={400}
                 src={PreSchool}
                 width={400}
                 alt="preschool" 
                 />
+                <div className='text-black bg-[#F8BC36] rounded text-[2rem] font-bold w-[25rem]'>Pre-School</div>
                     
-                <span className='text-black'>Register your child with us and experience a complete turnaround </span>
+                
             </div>
             {/* Card2 */}
-            <div className='bg-[#F8BC36] min-h-[13rem]  w-[25rem] p-3 relative rounded-md shadow-xl m-auto text-center'>
-                <span className='text-black text-[2rem] font-bold '>Elementary</span>
+            <div className='  relative rounded-md shadow-xl m-auto text-center'>
                 <Image
+                className='rounded-xl'
                 height={400}
                 src={Elementary}
                 width={400}
                 alt="preschool" 
                 />
+                <div className='text-white text-[2rem] font-bold bg-blue-950 p-3 rounded  w-[25rem]'>Elementary</div>
                     
-                <span className='text-black'>Register your child with us and experience a complete turnaround </span>
+                
             </div>
             {/* Card3 */}
-            <div className='bg-[#F8BC36] min-h-[13rem]  w-[25rem] p-3 relative rounded-md shadow-xl m-auto text-center'>
-                <span className='text-black text-[2rem] font-bold '>College</span>
+            <div className='  relative rounded-md shadow-xl m-auto text-center  '>
                 <Image
+                className='rounded-xl'
                 height={400}
                 src={College}
                 width={400}
                 alt="preschool" 
                 />
+                <div className='text-white text-[2rem] font-bold w-[25rem] p-3 bg-gray-400 rounded '>College</div>
                     
-                <span className='text-black'>Register your child with us and experience a complete turnaround </span>
+                
             </div>
             
         </div>  

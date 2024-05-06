@@ -15,12 +15,15 @@ const ImageSlider = ({slides}) => {
  
   return (
     <>
+      <div className='overflow-hidden'>
+
         <div className='flex'>
           {slides.map((s, index)=>{
             
-            return <Image key={index} height={200} width={600} alt='slide' src={s}/>
+            return <Image key={index} style={{width: "auto", height: "auto"}} height={200} width={200} alt='slide' src={s}/>
           })}
         </div>
+      </div>
         <div>HELLO</div>
     </>
   )
