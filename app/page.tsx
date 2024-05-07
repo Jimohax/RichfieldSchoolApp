@@ -18,15 +18,46 @@ import basketball from "../public/img/landingImage/basketball.jpg"
 import hall from "../public/img/landingImage/Hall.jpg"
 import lab from "../public/img/landingImage/lab.jpg"
 import post2 from "../public/img/landingImage/post2.png"
+import Carousel from "@/components/Carousel/Carousel";
 
 export default function Home() {
 
 		let slides = [
-			play,
-			basketball,
-			hall,
-			lab,
-			post2,
+			{image: play,
+				title: "Kiddies Playground"
+			},
+			
+			{image: basketball,
+				title: "basketball court"
+			},
+			{image: hall,
+				title: "school hall"
+			},
+			{image: lab,
+				title: "science lab"
+			},
+			{image: post2,
+				title: "instagram feed"
+			},
+		];
+
+		let posts = [
+			{image: play,
+				
+			},
+			
+			{image: basketball,
+				
+			},
+			{image: hall,
+				
+			},
+			{image: lab,
+				
+			},
+			{image: post2,
+				
+			},
 		];
 		
 
@@ -35,6 +66,11 @@ export default function Home() {
 			<NavBar/>
 			<Hero2/>
 			<Hero/>
+			<Carousel>
+				{posts.map((p, index)=>(
+					<Image height={200} width={200} src={p.image} alt="posts" key={index}/>
+				))}
+			</Carousel>
 			<Categories/>
 			<div className="">
 				<ImageSlider slides={slides}/>

@@ -10,21 +10,33 @@ import React from 'react'
 
 
 
-const ImageSlider = ({slides}) => {
+
+const ImageSlider = ({slides }) => {
 
  
   return (
     <>
       <div className='overflow-hidden'>
 
-        <div className='flex'>
+        <div className='flex '>
           {slides.map((s, index)=>{
             
-            return <Image key={index} style={{width: "auto", height: "auto"}} height={200} width={200} alt='slide' src={s}/>
+            return (
+              <>
+              <div className='max-h-[10rem]'>
+
+                <Image key={index} style={{width: "auto", height: "auto", overflow: "hidden"}} height={200} width={200} alt='slide' src={s.image}/>
+                <span className='absolute flex w-full bg-white text-center'>{s.title}</span>
+              </div>
+              </>
+            
+            
+          )
+
           })}
         </div>
       </div>
-        <div>HELLO</div>
+        
     </>
   )
 }
