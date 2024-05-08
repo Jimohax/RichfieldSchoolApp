@@ -2,41 +2,75 @@
 
 import Image from 'next/image'
 import React from 'react'
-// import Play from "/img/landingImage/playground.jpg"
-// import basketball from "img/landingImage/basketball.jpg"
-// import hall from "img/landingImage/Hall.jpg"
-// import lab from "img/landingImage/lab.jpg"
-// import post2 from "img/landingImage/post2.png"
+// import play from "../../img/landingImage/playground.jpg"
+import play from '../../public/img/landingImage/playground.jpg'
+import basketball from "../../public/img/landingImage/basketball.jpg"
+import hall from "../../public/img/landingImage/Hall.jpg"
+import lab from "../../public/img/landingImage/lab.jpg"
+import post2 from "../../public/img/landingImage/post2.png"
 
 
 
 
-const ImageSlider = ({slides }) => {
+const ImageSlider = () => {
+  let slides = [
+    {image: play,
+      title: "Kiddies Playground"
+    },
+    
+    {image: basketball,
+      title: "basketball court"
+    },
+    {image: hall,
+      title: "school hall"
+    },
+    {image: lab,
+      title: "science lab"
+    },
+    {image: post2,
+      title: "instagram feed"
+    },
+  ];
 
  
   return (
     <>
-      <div className='overflow-hidden'>
-
-        <div className='flex '>
+      {/* <div className="carousel w-full">
+				<div id="slide1" className="carousel-item relative  ">
           {slides.map((s, index)=>{
-            
-            return (
+
+            <Image
+              src={play}
+              width={400}
+              height={300}
+              alt="Picture of a girl-student "
+              // className="w-full"
+            />
+          })}        
+
+					
+				</div>
+								
+				
+			</div> */}
+      <div className="carousel w-full">
+        
+        <div id="slide1" className="carousel-item relative  ">
+          {slides.map((s, index)=>(
               <>
-              <div className='max-h-[10rem]'>
 
-                <Image key={index} style={{width: "auto", height: "auto", overflow: "hidden"}} height={200} width={200} alt='slide' src={s.image}/>
-                <span className='absolute flex w-full bg-white text-center'>{s.title}</span>
-              </div>
+              <Image
+                      src={s.image}
+                      width={400}
+                      height={300}
+                      alt="Picture of a girl-student "
+                      // className="w-full"
+                    />
               </>
-            
-            
-          )
-
-          })}
+              
+                ))}
         </div>
       </div>
-        
     </>
   )
 }

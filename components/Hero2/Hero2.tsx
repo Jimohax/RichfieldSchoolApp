@@ -7,7 +7,7 @@ const Hero2 = () => {
         <main className="">
             <div className="w-full h-[40rem] bg-fixed relative bg-cover " style={{ backgroundImage: "url(/img/entrance.jpg)"}} >
                 
-                <div className="bg-black w-full h-[50rem] opacity-80 absolute top-0 "></div>
+                <div className="bg-black w-full h-full opacity-80 absolute top-0 "></div>
                 <div className="absolute top-5 text-white md:ml-[7rem] ml-[3rem] md:mt-[7rem] mt-[4rem] flex flex-col ">
 
                     <span className="text-[2rem] -mb-4">Welcome to</span>

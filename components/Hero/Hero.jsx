@@ -2,13 +2,13 @@
 
 import React from "react";
 import Image from "next/image";
-import student from "../../public/img/student.png";
+
 import event1 from "../../public/img/event1.jpg";
-import event2 from "../../public/img/event2.jpg";
-import event3 from "../../public/img/event3.jpg";
-import event4 from "../../public/img/event4.jpg";
+
 
 const Hero = () => {
+
+	
 	return (
 		<>
 			<div className="bg-blue-950  w-full flex align-center  min-h-[20rem] justify-around relative  flex-col md:flex-row">
@@ -35,49 +35,7 @@ const Hero = () => {
 				</div>
 				
 			</div>
-			<div className="carousel w-full">
-				<div id="slide1" className="carousel-item relative  ">
-					<Image
-						src={event1}
-						width={400}
-						height={300}
-						alt="Picture of a girl-student "
-						// className="w-full"
-					/>
-
-					
-				</div>
-				<div id="slide2" className="carousel-item relative ">
-					<Image
-						src={event2}
-						width={400}
-						height={300}
-						alt="Picture of a girl-student "
-						// className="w-full"
-					/>
-					
-				</div>
-				<div id="slide3" className="carousel-item relative ">
-					<Image
-						src={event3}
-						width={400}
-						height={300}
-						alt="Picture of a girl-student "
-						// className="w-full"
-					/>
-					
-				</div>
-				<div id="slide4" className="carousel-item relative ">
-					<Image
-						src={event4}
-						width={400}
-						height={300}
-						alt="Picture of a girl-student "
-						// className="w-full"
-					/>
-					
-				</div>
-			</div>
+			
 		</>
 	);
 };
