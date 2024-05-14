@@ -56,6 +56,7 @@ const Footer = () => {
 						</a>
 					</div>
 				</nav>
+				<div>Powered by BLACKHUB @2024</div>
 			</footer>
 		</>
 	);

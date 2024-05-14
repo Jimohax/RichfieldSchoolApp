@@ -1,42 +1,45 @@
 import Image from 'next/image'
 import React from 'react'
-import Facility1 from '../../public/img/facility1.jpg'
-import Facility2 from '../../public/img/facility2.jpg'
-import Facility3 from '../../public/img/facility3.png'
+import dance from '../../public/img/dance.webp'
+import madscience from '../../public/img/madscience.jpg'
+import techstars from '../../public/img/techstars.jpg'
 
-const Facilities = () => {
+const Clubs = () => {
   return (
     <>
       <div className='bg-white min-h-[20rem] w-full flex flex-col p-3 text-blue-950 font-bold'>
-        <span className='text-center text-2xl my-3'>Our Facilities</span>
+        <span className='text-center text-2xl my-3'>Our Clubs</span>
         <div className='flex flex-col lg:flex-row gap-[2rem] mb-[2rem]'>
           <div className='m-auto'>
               <Image
                 width={500}
                 height={400}
-                src={Facility1}
-                alt='school facilities'
+                src={dance}
+                alt='Dance CLub'
+                className='rounded-xl'
               />
-              <span>Well equiped ICT room</span>
+              <span>Dance Club</span>
           </div>
           <div className='m-auto'>
               <Image
                 width={500}
                 height={400}
-                src={Facility2}
+                src={techstars}
                 alt='school facilities'
+                className='rounded-xl'
               />
-              <span>State of the art classroom</span>
+              <span>Techstars Club (Coding & Robotics)</span>
 
           </div>
           <div className='m-auto'>
               <Image
                 width={500}
                 height={400}
-                src={Facility3}
+                src={madscience}
                 alt='school facilities'
+                className='rounded-xl'
               />
-              <span>Spacious halls</span>
+              <span>Madscience</span>
 
           </div>
         </div>
@@ -45,4 +48,4 @@ const Facilities = () => {
   )
 }
 
-export default Facilities
+export default Clubs

@@ -25,9 +25,9 @@ const Carousel = () => {
     <>
         <div className="overflow-hidden m-5">
 
-          <div className="flex md:flex-row flex-col gap-3 justify-around">
+          <div className="flex md:flex-row flex-col gap-3 justify-around items-center">
               {posts.map((p, index)=>(
-              <Image height={400} width={400} src={p.image} alt="posts" key={index}/>
+              <Image height={300} width={300} src={p.image} alt="posts" key={index}/>
             ))}
 
           </div>
