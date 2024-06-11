@@ -50,7 +50,7 @@ const NavBar = () => {
                                     <li>
 										<a>College</a>
 									</li>
-								</ul>
+								</ul> 
 							</li>
 							<li>
 								<a>Contact</a>
@@ -60,7 +60,7 @@ const NavBar = () => {
 					<Link href="/">
 					
 					
-					<div  className="btn btn-ghost md:text-xl">RICHFIELD</div>
+					<div  className="btn btn-ghost md:text-xl">RICHFIELD School</div>
 					</Link>
 					<Image src="/img/richfield_logo.png" height={100} width={100} alt="logo"/>
 				</div>
@@ -96,7 +96,7 @@ const NavBar = () => {
 				</div>
 				<div className="navbar-end ">
 					<Link href={'/admission'}>
-					 <div  className="btn bg-[#f7de3e] text-black">Join Us</div>
+					 <div  className="btn bg-white text-black">Join Us</div>
 					</Link>
 				</div>
 			</div>
